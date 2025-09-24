@@ -14,7 +14,7 @@ mkdir %rvfolder%
 REM change directory
 cd %rvfolder%
 REM download rivt install file
-curl  -o  
+curl  https://github.com/rivt-info/rivt-win-install/blob/main/rivt-install.cmd -O  
 REM make venv
 uv venv
 REM activate venv
