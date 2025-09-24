@@ -1,4 +1,5 @@
 @echo on
+REM clear existing project, download rivt-install, create new venv
 REM set rivt folder
 SET rvfolder=rivt-doc1
 REM go to home directory
@@ -14,7 +15,7 @@ mkdir %rvfolder%
 REM change directory
 cd %rvfolder%
 REM download rivt install file
-curl  https://github.com/rivt-info/rivt-win-install/blob/main/rivt-install.cmd -O  
+curl  https://raw.githubusercontent.com/rivt-info/rivt-win-install/refs/heads/main/rivt-install.cmd -O  
 REM make venv
 uv venv
 REM activate venv
