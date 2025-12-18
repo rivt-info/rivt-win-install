@@ -10,12 +10,12 @@ Further information can be found here.
 
 https://docs.astral.sh/uv/getting-started/installation/#pypi
 
+The command file is in preliminary form for now 
 
-In this preliminary form the file deletes any existing uv installs,  installs or reinstalls 
-
-Python
-rivt package
-example rivt file: rivt-rv000-single-doc.py
+1. deletes any existing uv installs
+1. installs or reinstalls Python
+1. rivt package
+1. example rivt file: rivt-rv000-single-doc.py
 
 When the script exits, the command window is left open.  The rivt file
 can be run with the command line
