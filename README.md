@@ -1,12 +1,26 @@
 # rivt-win-install
 
-This Window 10 command file presumes that uv is already installed. If not it can be installed with 
+The Window 10 installation command file rivtuv.cmd, presumes that uv is already installed. If not it can be installed with
 
 ```
 winget install --id=astral-sh.uv  -e
 ```
+Further information can be found here.
 
-deletes existing uv installs installs Python 
+https://docs.astral.sh/uv/getting-started/installation/#pypi
+
+
+In this preliminary form the file deletes any existing uv installs,  installs or reinstalls 
+
+Python
+rivt package
+example rivt file: rivt-rv000-single-doc.py
+
+When the script exits, the command window is left open.  The rivt file
+can be run with the command line
+
+```
+python rv000-single-doc
 
 ```
 @echo on
@@ -45,8 +59,6 @@ curl https://raw.githubusercontent.com/rivt-info/rivt-single-doc/refs/heads/main
 curl https://raw.githubusercontent.com/rivt-info/rivt-single-doc/refs/heads/main/s-beam1-v.csv -O
 curl https://raw.githubusercontent.com/rivt-info/rivt-single-doc/refs/heads/main/s-sectprop.py -O
 curl https://github.com/rivt-info/rivt-single-doc/blob/main/s-beam.png?raw=true -O -L
-```
-
-
-REM run example (no quotes) "python rv000-simple-doc.py"
+REM run example (no quotes) "python rv000-single-doc.py"
 cmd /k
+```
