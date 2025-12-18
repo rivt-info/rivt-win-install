@@ -62,6 +62,9 @@ curl https://raw.githubusercontent.com/rivt-info/rivt-single-doc/refs/heads/main
 curl https://raw.githubusercontent.com/rivt-info/rivt-single-doc/refs/heads/main/s-sectprop.py -O
 curl https://github.com/rivt-info/rivt-single-doc/blob/main/s-beam.png?raw=true -O -L
 REM run example (no quotes) "python rv000-single-doc.py"
-```
 cmd /k
 ```
+
+Additional information can be found here:
+
+https://rivt.info/rvB01-install.html
