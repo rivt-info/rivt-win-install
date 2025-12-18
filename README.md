@@ -31,8 +31,8 @@ The current PUBLISH command writes a text doc. The file can be edited to publish
 REM Windows 10 and above - cmd file
 REM Step 1 - clear any existing project
 REM Step 2 - create new venv
-REM Step 3 - install rivt
-REM Step 4 - download example
+REM Step 3 - install rivt from GitHub
+REM Step 4 - download example from GitHUb into "example 2" folder
 REM set rivt folder
 REM - Step 1 : change to the user home directory and delete existing installs
 SET rvfolder=rivt-doc2
@@ -52,9 +52,9 @@ REM - Step 2 : create virtual environment
 uv venv
 REM activate venv
 call .venv/scripts/activate
-REM (3) install rivt from GitHub
+REM - Step 3 :  install rivt from GitHub
 uv pip install git+https://github.com/rivtlib-dev/rivtlib.git@main
-REM (4) download example project into new folder
+REM Step 4 - download example from GitHUb
 mkdir example2
 cd example2
 curl https://raw.githubusercontent.com/rivt-info/rivt-single-doc/refs/heads/main/rv0000-single-doc.py -O
