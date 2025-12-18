@@ -24,7 +24,7 @@ can then be run with the command line
 python rv000-single-doc
 ```
 
-The current PUBLISH command writes a text doc. The file can be edited to publish a PDF or HTML file.
+The current PUBLISH command writes a TXT doc. The file can be edited to publish a PDF or HTML file.
 
 ```
 @echo on
