@@ -6,7 +6,7 @@ installed with the command:
 ```
 winget install --id=astral-sh.uv  -e
 ```
-Further information can be found here.
+Further uv information can be found here.
 
 https://docs.astral.sh/uv/getting-started/installation/#pypi
 
@@ -57,7 +57,7 @@ uv pip install git+https://github.com/rivtlib-dev/rivtlib.git@main
 REM Step 4 - download example from GitHUb
 mkdir example2
 cd example2
-curl https://raw.githubusercontent.com/rivt-info/rivt-single-doc/refs/heads/main/rv0000-single-doc.py -O
+curl https://raw.githubusercontent.com/rivt-info/rivt-single-doc/refs/heads/main/rv000-single-doc.py -O
 curl https://raw.githubusercontent.com/rivt-info/rivt-single-doc/refs/heads/main/s-beam1-v.csv -O
 curl https://raw.githubusercontent.com/rivt-info/rivt-single-doc/refs/heads/main/s-sectprop.py -O
 curl https://github.com/rivt-info/rivt-single-doc/blob/main/s-beam.png?raw=true -O -L
