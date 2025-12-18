@@ -10,31 +10,31 @@ Further information can be found here.
 
 https://docs.astral.sh/uv/getting-started/installation/#pypi
 
-The command file is in preliminary form for now 
+The command file is in preliminary form and executes the following steps:
 
-1. deletes any existing uv installs
+1. deletes any prexisting uv installs
 1. installs or reinstalls Python
-1. rivt package
-1. example rivt file: rivt-rv000-single-doc.py
+1. installs or reinstalls the rivt package
+1. installs or reinstalls example rivt file: rivt-rv000-single-doc.py
 
 When the script exits, the command window is left open.  The rivt file
-can be run with the command line
+can then be run with the command line
 
 ```
 python rv000-single-doc
 ```
 
+The current PUBLISH command writes a text doc. The file can be edited to publish a PDF or HTML file.
+
 ```
 @echo on
 REM Windows 10 and above - cmd file
-REM (1) clear any existing project
-REM (2) create new venv
-REM (3) install rivt
-REM (4) download example
+REM Step 1 - clear any existing project
+REM Step 2 - create new venv
+REM Step 3 - install rivt
+REM Step 4 - download example
 REM set rivt folder
-REM - Step 1 : change to the user home directory
-REM - Step 1 : change to the user home directory
-
+REM - Step 1 : change to the user home directory and delete existing installs
 SET rvfolder=rivt-doc2
 REM go to home directory
 cd %HOMEPATH%
@@ -48,7 +48,7 @@ REM set up venv
 mkdir %rvfolder%
 REM change directory
 cd %rvfolder%
-REM (2) make venv
+REM - Step 2 : create virtual environment
 uv venv
 REM activate venv
 call .venv/scripts/activate
