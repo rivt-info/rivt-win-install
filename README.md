@@ -1,9 +1,8 @@
 # rivtuv-install
 
 The following installation scripts presume that *uv* is already installed. 
-See https://docs.astral.sh/uv/getting-started/installation/#pypi .
-
-If not, it can be installed with the commands:
+See https://docs.astral.sh/uv/getting-started/installation/#pypi . If not, it can be 
+installed with the commands:
 
 **Windows**:
 ```
